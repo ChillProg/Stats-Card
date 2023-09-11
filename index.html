@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" /></head>
+<body>
+    <div class="card-container">
+        <div class="first-row-container">
+            <div class="first-row-header">
+                <span class="title">Total Sales</span>
+                <span class="material-symbols-outlined icon">info</span>            
+            </div>
+            <span class="view-more">View report</span>
+        </div>
+        <div class="second-row-container">
+            <span class="dolar">$</span>
+            <span class="income">72.45</span>
+            <span class="increase-decrease">
+                <span class="material-symbols-outlined">arrow_upward</span>
+                3.5%
+            </span>
+        </div>
+        <div class="items-row-container">
+            <span class="channel-name">Youtube channel</span>
+            <span class="channel-import">$40.32</span>
+            <span class="channel-porcentage"><span class="material-symbols-outlined decrease">arrow_downward</span>
+                2.2%
+            </span>
+        </div>
+        <div class="items-row-container">
+            <span class="channel-name">Instagram</span>
+            <span class="channel-import">$32.13</span>
+            <span class="channel-porcentage"><span class="material-symbols-outlined increase">arrow_upward</span>
+                7.2%
+            </span>
+        </div>
+        <div class="chart-container"></div>
+        <div>
+            <canvas class="chart" id="myChart"></canvas>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="first-row-container">
+            <div class="first-row-header">
+                <span class="title">Repeat Rate</span>
+                <span class="material-symbols-outlined icon">info</span>            
+            </div>
+            <span class="view-more">View report</span>
+        </div>
+        <div class="second-row-container">
+            <span class="dolar">$</span>
+            <span class="income">6.75</span>
+            <span class="increase-decrease">
+                <span class="material-symbols-outlined">arrow_upward</span>
+                3.5%
+            </span>
+        </div>
+        <div class="items-row-container">
+            <span class="channel-name">Youtube channel</span>
+            <span class="channel-import">$12.12</span>
+            <span class="channel-porcentage"><span class="material-symbols-outlined increase">arrow_upward</span>
+                2.7%
+            </span>
+        </div>
+        <div class="items-row-container">
+            <span class="channel-name">Instagram</span>
+            <span class="channel-import">$12.68</span>
+            <span class="channel-porcentage"><span class="material-symbols-outlined increase">arrow_upward</span>
+                3.6%
+            </span>
+        </div>
+        <div>
+            <canvas class="chart" id="myChart2"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
